@@ -1,0 +1,116 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.03);
+    padding: 40px 20px 40px 20px;
+    background-color: #152136;
+}
+
+.section-title{
+    font-size: 26px;
+    font-weight: 400;
+    color: #e1a34c;
+}
+
+.contact-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    margin: 16px 0px;
+}
+
+.contact-left{
+    display: flex;
+    max-width: 60%;
+    font-size: 20px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.mail h5{
+    color: white;
+    font-weight: 400;
+}
+
+.mail-icon{
+    cursor: default;
+    font-size: 30px;
+    color: white;
+}
+
+.copy-icon{
+    margin-left: 5px;
+    color: white;
+}
+
+.download{
+    padding: 12px 12px;
+    border: unset;
+    border-radius: 4px;
+    z-index: 1;
+    background: #e1a34c;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    transition: all 300ms;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.download a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    
+}
+.download a::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 4px;
+    background-color: white;
+    border: none;
+    z-index: -1;
+    transition: all 300ms
+}
+.download a:hover{
+    color: #2d2d2dff;
+}
+.download a:hover::before{
+    width: 100%;
+}
+
+
+
+
+@media only screen and (max-width: 720px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        font-size: 15px;
+        margin-bottom: 12px;
+        flex-wrap: wrap;
+    }
+    .download{
+        font-size: 15px;
+    }
+    .mail-icon{
+        font-size: 30px;
+    }
+}

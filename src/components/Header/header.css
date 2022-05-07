@@ -1,0 +1,57 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 30px 12px;
+    align-items: center;
+    position: relative;
+    background-color: #152136;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    filter: drop-shadow(0px 3px 3px #555352);
+}
+
+.menu{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.icon-mobile{
+    color: white;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+.web-menu{
+    display: flex;
+}
+
+.title{
+    display: flex;
+    color: wheat;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Work Sans", sans-serif;
+}
+
+@media only screen and (max-width:720px){
+    .mobile-menu{
+        display: flex;
+    }
+    .web-menu{
+        display: none;
+    }
+    .title{
+        font-size: 24px;
+    }
+}

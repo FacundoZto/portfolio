@@ -1,0 +1,42 @@
+.intro{
+    height: 60vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+}
+
+.intro-title{
+    width: 8.3ch;
+    animation: typing 2.5s steps(11), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 1px solid;
+    font-size: 150px;
+    color: #152136;
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    60%{
+        border-color: transparent;
+    }
+}
+
+@media only screen and (max-width: 720px){
+    .intro{
+        height: auto;
+    }
+    .intro-title{
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .intro-title{
+        font-size: 60px;
+    }
+}
