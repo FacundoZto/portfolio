@@ -9,17 +9,17 @@ const Mobile = ({isOpen, setIsOpen}) => {
             </div>
             <div className='mobile-options'>
                 <div className='mobile-option'>
-                    <a href='#About'>
-                        <span class="material-symbols-outlined">account_circle_full</span>Perfil
+                    <a href='#About' onClick={() => setIsOpen(!isOpen)}>
+                        <span class="material-symbols-outlined">account_circle_full</span>Sobre Mí
                     </a>
                 </div>
                 <div className='mobile-option'>
-                    <a href='#Projects'>
+                    <a href='#Projects' onClick={() => setIsOpen(!isOpen)}>
                         <span class="material-symbols-outlined">laptop_windows</span>Proyectos
                     </a>
                 </div>
                 <div className='mobile-option'>
-                    <a href='#Contact'>
+                    <a href='#Contact' onClick={() => setIsOpen(!isOpen)}>
                         <span class="material-symbols-outlined">contact_mail</span>Contacto
                     </a>
                 </div>
