@@ -1,18 +1,33 @@
 import './project-card.css';
-// import { motion } from "framer-motion"
+import { motion } from "framer-motion"
 
 // const variants = {
 //     hidden: { opacity: 0 },
 //     visible: { opacity: 2 },
 //   }
+const cardVariants = {
+    offscreen: {
+      x: '-50vh'
+    },
+    onscreen: {
+      x: 0,
+      transition: {
+        type: "spring",
+        bounce: 0.4,
+        duration: 1
+      }
+    }
+  };
 
 const ProjectCard = ({project}) => {
+    
     return(
-        <div className='project-card'
-        // dragConstraints={{ left: -100, right: 100 }}
-        // whileHover={{ scale: 1.05 }}
+        <motion.div className='project-card'
+            initial="offscreen"
+            whileInView="onscreen"
+            viewport={{ once: true, amount: 0.8 }}
         >
-            <div className='project-info'>
+            <motion.div className='project-info' variants={cardVariants}>
                 <label className='project-title'>{project.title}</label>
                 <p>{project.about}</p>
                 <div className='project-links'>
@@ -40,9 +55,9 @@ const ProjectCard = ({project}) => {
                             )
                         })}
                 </div> */}
-            </div>
-            <img src={project.image} className='project-photo' alt='demo' />
-        </div>
+            </motion.div>
+            <motion.img src={project.image} className='project-photo' alt='demo' variants={cardVariants}/>
+        </motion.div>
     )
 }
 
