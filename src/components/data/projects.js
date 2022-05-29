@@ -1,3 +1,5 @@
+import img from '../../assets/github.png';
+
 export const ProjectData = [
     {
         id: 1,
@@ -25,5 +27,14 @@ export const ProjectData = [
         demo: null,
         github: "https://github.com/FacundoZto/Weather-App",
         image: "https://github.com/FacundoZto/Weather-App/blob/main/src/components/styles/weather-app.png?raw=true"
-    },
+    }, 
+    {
+        id: 4,
+        title: "GitHub Users",
+        about: null,
+        tags: ["ReactJs"],
+        demo: null,
+        github: "https://github.com/FacundoZto/Prueba-Tecnica_Front-end",
+        image: img
+    }
 ]
