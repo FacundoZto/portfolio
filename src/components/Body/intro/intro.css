@@ -3,6 +3,7 @@
     background-color: white;
     display: grid;
     place-items: center;
+    margin: 90px 0px 0px 0px;
 }
 
 .intro-title{

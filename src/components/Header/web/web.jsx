@@ -1,5 +1,6 @@
 import './web.css';
 import {motion} from 'framer-motion';
+import {Link} from 'react-scroll';
 
 const Web = () => {
     return(
@@ -13,22 +14,34 @@ const Web = () => {
         }}
         >
             <div className='web-option'>
-                <a href='#About'>
-                    {/* <span class="material-symbols-outlined">account_circle_full</span> */}
-                    Sobre Mí
-                </a>
+                <Link
+                to="About" 
+                spy={true} 
+                smooth={true} 
+                offset={-50} 
+                duration={550}
+                className={'link'}
+                >Sobre Mí</Link>
             </div>
             <div className='web-option'>
-                <a href='#Projects'>
-                    {/* <span class="material-symbols-outlined">laptop_windows</span> */}
-                    Proyectos
-                </a>
+                <Link
+                to="Projects" 
+                spy={true} 
+                smooth={true} 
+                offset={0} 
+                duration={550}
+                className={'link'}
+                >Proyectos</Link>
             </div>
             <div className='web-option'>
-                <a href='#Contact'>
-                    {/* <span class="material-symbols-outlined">contact_mail</span> */}
-                    Contacto
-                </a>
+                <Link
+                to="Contact" 
+                spy={true} 
+                smooth={true} 
+                offset={0} 
+                duration={550}
+                className={'link'}
+                >Contacto</Link>
             </div>
         </motion.div>
     )

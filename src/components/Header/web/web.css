@@ -10,13 +10,14 @@
     font-weight: 500;
 }
 
-.web-option a{
+.link{
     display: flex;
     align-items: center;
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
-.web-option a:hover{
+.link:hover{
     color: #e1a34c;
 }
 

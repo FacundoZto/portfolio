@@ -44,11 +44,11 @@
     margin: 12px 0px;
     display: flex;
 }
-.mobile-option a{
+.link, .btn{
     text-decoration: none;
     color: white;
     display: flex;
 }
-.mobile-option a:hover{
+.link:hover{
     color: #e1a34c;
 }

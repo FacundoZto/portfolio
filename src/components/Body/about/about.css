@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
+    margin: 100px 0px 50px 0px;
 }
 .about-bottom h4{
     color: #1f1f1f;
