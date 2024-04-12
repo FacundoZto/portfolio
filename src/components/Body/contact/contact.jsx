@@ -1,5 +1,5 @@
 // import Separator from '../../common/separator/separator.jsx';
-import Cv from "../../../assets/Facundo-Zerbato.pdf";
+import Cv from "../../../assets/Facundo.Zerbato.pdf";
 import "./contact.css";
 import SocialContact from "../../common/social-contact.jsx";
 import { motion } from "framer-motion";
@@ -37,7 +37,7 @@ const Contact = () => {
             download="Facundo-Zerbato"
           >
             <span class="material-symbols-outlined">file_download</span>
-            Currículum
+            CV
           </a>
         </button>
       </div>
