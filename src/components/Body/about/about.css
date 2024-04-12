@@ -1,68 +1,69 @@
-.about{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* height: 80%; */
-    background-color: white;
-    display: flex;
+.about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* height: 80%; */
+  /*background-color: white;*/
+  display: flex;
+  flex-direction: column;
+}
+.about-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0px 50px 0px;
+}
+.about-bottom h4 {
+  color: #ffffff;
+  font-size: 22px;
+}
+.about-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.picture {
+  height: 350px;
+  filter: grayscale(90%);
+}
+
+.about-info {
+  font-size: 20px;
+  color: #fffaf7;
+  width: 50%;
+  line-height: 30px;
+}
+
+.first-letter {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 720px) {
+  .about-top {
     flex-direction: column;
-}
-.about-bottom{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 100px 0px 50px 0px;
-}
-.about-bottom h4{
-    color: #1f1f1f;
-    font-size: 22px;
-}
-.about-top{
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.picture{
-    height: 350px;
-}
-
-.about-info{
+  }
+  .picture {
+    height: 280px;
+  }
+  .about-info {
+    font-size: 18px;
+    width: 100%;
+  }
+  .first-letter {
     font-size: 20px;
-    color: #2d2b2a;
-    width: 50%;
-    line-height: 35px;
+  }
 }
 
-.first-letter{
-    color: #1b2b45;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-@media only screen and (max-width:720px){
-    .about-top{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .picture{
-        height: 280px;
-    }
-    .about-info{
-        font-size: 18px;
-        width: 100%;
-    }
-    .first-letter{
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width:280px){
-    .about{
-        padding: 50px 0px;
-        width: 100%;
-        margin: 0px;
-    }
+@media only screen and (max-width: 280px) {
+  .about {
+    padding: 50px 0px;
+    width: 100%;
+    margin: 0px;
+  }
 }

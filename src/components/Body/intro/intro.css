@@ -1,43 +1,43 @@
-.intro{
-    height: 60vh;
-    background-color: white;
-    display: grid;
-    place-items: center;
-    margin: 90px 0px 0px 0px;
+.intro {
+  height: 60vh;
+  /*background-color: white;*/
+  display: grid;
+  place-items: center;
+  margin: 90px 0px 0px 0px;
 }
 
-.intro-title{
-    width: 8.3ch;
-    animation: typing 2.5s steps(11), blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 1px solid;
-    font-size: 150px;
-    color: #152136;
+.intro-title {
+  width: 8.3ch;
+  animation: typing 2.5s steps(11), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 1px solid;
+  font-size: 150px;
+  color: #dbdbdb;
 }
 
 @keyframes typing {
-    from{
-        width: 0;
-    }
+  from {
+    width: 0;
+  }
 }
 
 @keyframes blink {
-    60%{
-        border-color: transparent;
-    }
+  60% {
+    border-color: transparent;
+  }
 }
 
-@media only screen and (max-width: 720px){
-    .intro{
-        height: auto;
-    }
-    .intro-title{
-        font-size: 100px;
-    }
+@media only screen and (max-width: 720px) {
+  .intro {
+    height: auto;
+  }
+  .intro-title {
+    font-size: 100px;
+  }
 }
-@media only screen and (max-width: 500px){
-    .intro-title{
-        font-size: 60px;
-    }
+@media only screen and (max-width: 500px) {
+  .intro-title {
+    font-size: 60px;
+  }
 }

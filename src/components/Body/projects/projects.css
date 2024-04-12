@@ -1,9 +1,7 @@
-.projects{
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    background-color: white;
-    padding: 60px 20px 70px 20px;
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  /*background-color: white;*/
+  padding: 60px 20px 70px 20px;
 }
-
-
