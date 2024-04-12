@@ -14,7 +14,7 @@
 .project-photo {
   width: 25%;
   border-radius: 4px;
-  filter: drop-shadow(1px 2px 3px #555352);
+  /*filter: drop-shadow(1px 2px 3px #555352b4);*/
 }
 
 .project-info {
