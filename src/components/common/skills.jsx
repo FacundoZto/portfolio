@@ -19,6 +19,7 @@ const TechSkills = () => {
             <label className='dev-label'><i class="devicon-css3-plain colored"></i>CSS</label>
             <label className='dev-label'><i class="devicon-javascript-plain colored"></i>Javascript</label>
             <label className='dev-label'><i class="devicon-react-original colored" ></i>React</label>
+            <label className='dev-label'><i class="devicon-nextjs-line"></i>Nextjs</label>
             <label className='dev-label'><i class="devicon-redux-original colored" ></i>Redux</label>
             <label className='dev-label'><i class="devicon-nodejs-plain colored"></i>NodeJs</label>
             <label className='dev-label'><i class="devicon-express-original colored"></i>Express</label>
