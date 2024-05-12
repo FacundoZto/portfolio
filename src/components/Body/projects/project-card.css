@@ -12,7 +12,7 @@
 }
 
 .project-photo {
-  width: 25%;
+  width: 20%;
   border-radius: 4px;
   /*filter: drop-shadow(1px 2px 3px #555352b4);*/
 }
@@ -20,14 +20,16 @@
 .project-info {
   width: 25%;
 }
-.project-info p {
-  color: #ffffff;
-  font-size: 16px;
-}
 
 .project-title {
   font-size: 20px;
   font-weight: 600;
+  color: #ffffff;
+}
+
+.project-about {
+  font-size: 14px;
+  font-weight: 400;
   color: #ffffff;
 }
 

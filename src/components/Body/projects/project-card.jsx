@@ -31,7 +31,7 @@ const ProjectCard = ({project}) => {
         >
             <motion.div className='project-info' variants={cardVariants}>
                 <label className='project-title'>{project.title}</label>
-                <p>{project.about}</p>
+                <p className='project-about'>{project.about}</p>
                 <div className='project-links'>
                     {project.demo && (
                         <a className='project-link' href={project.demo} target='_blank' rel="noreferrer" >
