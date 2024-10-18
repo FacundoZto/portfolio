@@ -36,7 +36,6 @@ const ProjectCard = ({project}) => {
                     {project.demo && (
                         <a className='project-link' href={project.demo} target='_blank' rel="noreferrer" >
                             <div className='link-button'>
-                                {/* <span class="material-symbols-outlined">language</span> */}
                                 Demo
                             </div>
                         </a>
@@ -45,18 +44,10 @@ const ProjectCard = ({project}) => {
                         <a className='project-link' href={project.github} target='_blank' rel="noreferrer" >
                         <div className='link-button'>
                             GitHub
-                            {/* <i class="devicon-github-original"></i>GitHub */}
                         </div>
                         </a>
                     )}
                 </div>
-                {/* <div className='project-tags'>
-                        {project.tags.map((tag) => {
-                            return(
-                                <label className='tag'>{tag}</label>
-                            )
-                        })}
-                </div> */}
             </motion.div>
             <motion.img src={project.image} className='project-photo' alt='demo' variants={cardVariants}/>
         </motion.div>

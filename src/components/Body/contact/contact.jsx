@@ -1,5 +1,5 @@
 // import Separator from '../../common/separator/separator.jsx';
-import Cv from "../../../assets/Facundo.Zerbato.pdf";
+import Cv from "../../../assets/FacundoZerbato.pdf";
 import "./contact.css";
 import SocialContact from "../../common/social-contact.jsx";
 import { motion } from "framer-motion";

@@ -1,6 +1,5 @@
 import "./about.css";
 import coding from "../../../assets/coding.png";
-import SocialContact from "../../common/social-contact.jsx";
 import TechSkills from "../../common/skills.jsx";
 
 const About = () => {
@@ -18,9 +17,6 @@ const About = () => {
             <br /> Motivated to work in teams and seeking new challenges where I
             can contribute value and grow professionally.
           </p>
-          <SocialContact />
-          {/* <h4>Skills</h4>
-                    <TechSkills/> */}
         </div>
         <div className="about-photo">
           <img src={coding} className="picture" alt="Coding" />
