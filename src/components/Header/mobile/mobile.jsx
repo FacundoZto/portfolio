@@ -16,10 +16,10 @@ const Mobile = ({isOpen, setIsOpen}) => {
                     spy={true} 
                     smooth={true} 
                     offset={-50} 
-                    duration={550}
+                    duration={100}
                     className={'link'}
                     onClick={() => setIsOpen(!isOpen)}
-                    >Sobre Mí</Link>
+                    >About</Link>
                 </div>
                 <div className='mobile-option'>
                     <span class="material-symbols-outlined btn">laptop_windows</span>
@@ -28,10 +28,10 @@ const Mobile = ({isOpen, setIsOpen}) => {
                     spy={true} 
                     smooth={true} 
                     offset={0} 
-                    duration={550}
+                    duration={100}
                     className={'link'}
                     onClick={() => setIsOpen(!isOpen)}
-                    >Proyectos</Link>
+                    >Projects</Link>
                 </div>
                 <div className='mobile-option'>
                     <span class="material-symbols-outlined btn">contact_mail</span>
@@ -40,10 +40,10 @@ const Mobile = ({isOpen, setIsOpen}) => {
                     spy={true} 
                     smooth={true} 
                     offset={0} 
-                    duration={550}
+                    duration={100}
                     className={'link'}
                     onClick={() => setIsOpen(!isOpen)}
-                    >Contacto</Link>
+                    >Contact</Link>
                 </div>
             </div>
         </div>

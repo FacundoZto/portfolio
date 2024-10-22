@@ -19,7 +19,7 @@ const Web = () => {
           spy={true}
           smooth={true}
           offset={-50}
-          duration={550}
+          duration={100}
           className={"link"}
         >
           About
@@ -31,7 +31,7 @@ const Web = () => {
           spy={true}
           smooth={true}
           offset={0}
-          duration={550}
+          duration={100}
           className={"link"}
         >
           Projects
@@ -43,7 +43,7 @@ const Web = () => {
           spy={true}
           smooth={true}
           offset={0}
-          duration={550}
+          duration={100}
           className={"link"}
         >
           Contact
