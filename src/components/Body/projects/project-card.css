@@ -5,16 +5,11 @@
   align-items: center;
   margin: 30px 0px;
   padding: 8px 0px;
-
-  /* background-color: #ffffff;
-    filter: drop-shadow(0px 1px 2px #555352);
-    padding: 0px 10px; */
 }
 
 .project-photo {
   width: 20%;
   border-radius: 4px;
-  /*filter: drop-shadow(1px 2px 3px #555352b4);*/
 }
 
 .project-info {
@@ -68,5 +63,7 @@
     margin-top: 12px;
     text-align: center;
   }
-  
+  .project-links{
+    justify-content: center;
+  }
 }

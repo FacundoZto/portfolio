@@ -44,6 +44,12 @@
       margin-right: 10px;
     }
   }
+
+  .mobile-menu > div {
+    position: absolute;
+    right: 10px;
+  }
+
   .web-menu {
     display: none;
   }

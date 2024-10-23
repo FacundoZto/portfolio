@@ -1,10 +1,6 @@
 import './project-card.css';
 import { motion } from "framer-motion"
 
-// const variants = {
-//     hidden: { opacity: 0 },
-//     visible: { opacity: 2 },
-//   }
 const cardVariants = {
     offscreen: {
       x: '-50vh',
