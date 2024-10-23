@@ -10,8 +10,7 @@ const Contact = () => {
   };
   return (
     <div className="contact">
-      {/* <Separator/> */}
-      <label className="section-title">Contact</label>
+      {/* <label className="section-title">Contact</label> */}
       <div className="contact-container">
         <div className="contact-left">
           <div className="mail">

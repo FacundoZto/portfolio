@@ -4,20 +4,19 @@
   flex: 1;
   border-top: 1px solid rgba(255, 255, 255, 0.055);
   padding: 40px 20px 40px 20px;
-  /*background-color: #152136;*/
 }
 
-.section-title {
-  font-size: 24px;
+/* .section-title {
+  font-size: 20px;
   font-weight: 600;
   color: rgb(255, 255, 255);
   margin-left: 5%;
-}
+} */
 
 .contact-container {
   display: flex;
   flex: 1;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   margin: 16px 0px;
 }
@@ -49,14 +48,14 @@
 }
 
 .download {
-  padding: 10px 20px;
+  padding: 8px 20px;
   border: unset;
   border-radius: 50px;
   z-index: 1;
   background: rgba(23, 163, 184, 0.418);
   position: relative;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   transition: all 300ms;
   overflow: hidden;
   margin-left: 10px;

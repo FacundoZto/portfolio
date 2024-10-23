@@ -2,25 +2,13 @@ import "./header.css";
 import Mobile from "./mobile/mobile.jsx";
 import Web from "./web/web.jsx";
 import { useState } from "react";
-import { motion } from "framer-motion";
+//import { motion } from "framer-motion";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="header">
-      <motion.div
-        className="title"
-        transition={{
-          duration: 0.5,
-        }}
-        animate={{
-          x: 50,
-        }}
-      >
-        Front-end Developer
-      </motion.div>
-
       <div className="menu">
         <div className="web-menu">
           <Web />

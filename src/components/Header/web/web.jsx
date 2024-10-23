@@ -10,7 +10,7 @@ const Web = () => {
         duration: 0.5,
       }}
       animate={{
-        x: -30,
+        y: 15,
       }}
     >
       <div className="web-option">
