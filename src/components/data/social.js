@@ -16,6 +16,6 @@ export const SocialData = [
     {
         platform:'Whatsapp',
         icon: whatsapp,
-        link: "https://wa.me/+5493584193498"
+        link: "https://wa.me/+5493584321313"
     }
 ]
