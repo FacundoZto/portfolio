@@ -1,6 +1,5 @@
 .intro {
-  height: 60vh;
-  /*background-color: white;*/
+  height: 50vh;
   display: grid;
   place-items: center;
   margin: 90px 0px 0px 0px;

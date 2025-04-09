@@ -3,8 +3,6 @@
   padding-bottom: 50px;
   padding-left: 20px;
   padding-right: 20px;
-  /* height: 80%; */
-  /*background-color: white;*/
   display: flex;
   flex-direction: column;
 }
@@ -22,11 +20,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.picture {
-  height: 350px;
-  filter: grayscale(90%);
 }
 
 .about-info {
