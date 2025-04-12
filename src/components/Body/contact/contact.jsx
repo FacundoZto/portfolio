@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="contact-left">
           <div className="mail">
             <span class="material-symbols-outlined mail-icon">mail</span>
-            <h5>facundozerbato@outlook.com</h5>
+            <h5>zerbatofacundo@gmail.com</h5>
             <motion.span
               whileTap={{
                 scale: 0.7,
